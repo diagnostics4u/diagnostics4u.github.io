@@ -23,9 +23,13 @@ Liyanaarachchi](rukshanil@uom.lk)1
 shape parameters through the parametric regression MLP. These warp the SSM to
 generate the 3D liver reconstruction.
 
-##  US segmentation and 3D reconstruction results. Three input US sagittal
-plane images, corresponding segmentations, and 3D liver reconstructions using
-the shape parameters for three subjects.
+## US segmentation and 3D reconstruction results
+
+Three input US sagittal plane images, corresponding segmentations, and 3D liver reconstructions using the shape parameters for three subjects.
+
+### Teaser Video
+- [Teaser Video: 3D Reconstruction](3d.mp4)
+
 
 ## Abstract
 
@@ -44,12 +48,13 @@ Our volumetry results are statistically closer to the ground-truth volumes
 obtained from CT scans than the volumes computed by radiologists using the
 Childs’ method.
 
-Your browser does not support the video tag.  Your browser does not support
-the video tag.
+## US segmentation and 3D reconstruction results
 
-##  US segmentation and 3D reconstruction results. Three input US sagittal
-plane images, corresponding segmentations, and 3D liver reconstructions using
-the shape parameters for three subjects.
+Three input US sagittal plane images, corresponding segmentations, and 3D liver reconstructions using the shape parameters for three subjects.
+
+### Videos
+- [Video: overlap](overlap.mp4)
+- [Video: distance](distance.mp4)
 
 ## Main Results
 
