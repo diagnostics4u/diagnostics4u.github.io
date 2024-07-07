@@ -1,9 +1,8 @@
 # diagnostics4u.github.io
 
-# LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a
-Few Partial Ultrasound Scans
+# LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans
 
-#  MICCAI 2024
+###  MICCAI 2024
 
 [Kaushalya Sivayogaraj](170597a@uom.lk)1, [Sahan
 Guruge](sahang@physiol.cmb.ac.lk)2, [Udari Liyanage](udari@anat.cmb.ac.lk)2,
@@ -18,23 +17,11 @@ Liyanaarachchi](rukshanil@uom.lk)1
 [ __ Paper ](https://arxiv.org/pdf/2406.19336) [ __ arXiv
 ](https://arxiv.org/abs/2406.19336)
 
-![Interpolate start reference image.](./static/images/main.PNG)
+![Interpolate start reference image.](main.PNG)
 
 ##  LiverUSRecon Overview:Binary masks of the three US slices generate the
 shape parameters through the parametric regression MLP. These warp the SSM to
 generate the 3D liver reconstruction.
-
-![MY ALT TEXT](./static/images/1-3d.PNG)
-
-##  First image description.
-
-![MY ALT TEXT](./static/images/2_3d.PNG)
-
-##  Second image description.
-
-![MY ALT TEXT](./static/images/3_3d.PNG)
-
-##  Third image description.
 
 ##  US segmentation and 3D reconstruction results. Three input US sagittal
 plane images, corresponding segmentations, and 3D liver reconstructions using
@@ -71,7 +58,7 @@ Paired t-test shows that there is no significant difference in volumes between
 CT and our method (p > 0.05). Our method is statistically more accurate. µ:
 mean difference, SEM: standard error mean.
 
-![Interpolate start reference image.](./static/images/main_results.PNG)
+![Interpolate start reference image.](main_results.PNG)
 
 ## Volume Comparision
 
@@ -79,7 +66,7 @@ A subset of liver volume estimated by radiologists using Child’s method (US
 Vol), CT segmentation (CT Vol), and the volumes computed using the proposed
 method (Our Vol).
 
-![Interpolate start reference image.](./static/images/volumes.PNG)
+![Interpolate start reference image.](volumes.PNG)
 
 ## BibTeX
 
