@@ -4,12 +4,11 @@
 
 ###  MICCAI 2024
 
-[Kaushalya Sivayogaraj](170597a@uom.lk), [Sahan
-Guruge](sahang@physiol.cmb.ac.lk), [Udari Liyanage](udari@anat.cmb.ac.lk),
-[Jeevani Udupihille](jeevani.udupihille@med.pdn.ac.lk),  [Saroj
-Jayasinghe](saroj@clinmed.cmb.ac.lk),  [Gerard
-Fernando](gerardf@zone24x7.com),  [Ranga Rodrigo](ranga@uom.lk), [Rukshani
-Liyanaarachchi](rukshanil@uom.lk)
+[Kaushalya Sivayogaraj](170597a@uom.lk), 
+[Sahan Guruge](sahang@physiol.cmb.ac.lk), [Udari Liyanage](udari@anat.cmb.ac.lk),
+[Jeevani Udupihille](jeevani.udupihille@med.pdn.ac.lk),  [Saroj Jayasinghe](saroj@clinmed.cmb.ac.lk),
+[Gerard Fernando](gerardf@zone24x7.com),  [Ranga Rodrigo](ranga@uom.lk), 
+[Rukshani Liyanaarachchi](rukshanil@uom.lk)
 
 ![Interpolate start reference image.](main.PNG)
 
@@ -25,20 +24,20 @@ obtained from CT scans than the volumes computed by radiologists using the
 Childs’ method.
 
 ## Ultrasound segmentation and 3D reconstruction results
-- [Overall framework 3D Reconstruction](./videos/3d.gif)
+- ![Overall framework 3D Reconstruction](./videos/3d.gif)
 
 
 ### 3D Reconstruction
-- [Video: Overla[ between GT and prediction]](./videos/overlap.gif)
-- [Video: Absoulte point to point distance](./videos/distance.gif)
+- ![Overla[ between GT and prediction]](./videos/overlap.gif)
+- ![Absoulte point to point distance](./videos/distance.gif)
 
 ## Statistical analysis
 
-![Interpolate start reference image.](main_results.PNG)
+![Main Results](main_results.PNG)
 
 ## Volume Comparision
 
-![Interpolate start reference image.](volumes.PNG)
+![Volume comparision](volumes.PNG)
 
 ## Citation
 If you find this project or this repository useful, please consider cite:
