@@ -4,18 +4,12 @@
 
 ###  MICCAI 2024
 
-[Kaushalya Sivayogaraj](170597a@uom.lk)1, [Sahan
-Guruge](sahang@physiol.cmb.ac.lk)2, [Udari Liyanage](udari@anat.cmb.ac.lk)2,
-[Jeevani Udupihille](jeevani.udupihille@med.pdn.ac.lk)3,  [Saroj
-Jayasinghe](saroj@clinmed.cmb.ac.lk)2,  [Gerard
-Fernando](gerardf@zone24x7.com)4,  [Ranga Rodrigo](ranga@uom.lk)1 [Rukshani
-Liyanaarachchi](rukshanil@uom.lk)1
-
-1University of Moratuwa, 2University of Colombo, 3University of Peradeniya,
-4Zone 24x7 (Pvt) Ltd,
-
-[ __ Paper ](https://arxiv.org/pdf/2406.19336) [ __ arXiv
-](https://arxiv.org/abs/2406.19336)
+[Kaushalya Sivayogaraj](170597a@uom.lk), [Sahan
+Guruge](sahang@physiol.cmb.ac.lk), [Udari Liyanage](udari@anat.cmb.ac.lk),
+[Jeevani Udupihille](jeevani.udupihille@med.pdn.ac.lk),  [Saroj
+Jayasinghe](saroj@clinmed.cmb.ac.lk),  [Gerard
+Fernando](gerardf@zone24x7.com),  [Ranga Rodrigo](ranga@uom.lk)1 [Rukshani
+Liyanaarachchi](rukshanil@uom.lk)
 
 ![Interpolate start reference image.](main.PNG)
 
@@ -73,14 +67,18 @@ method (Our Vol).
 
 ![Interpolate start reference image.](volumes.PNG)
 
-## BibTeX
+## Citation
+If you find this project or this repository useful, please consider cite:
 
-    
-    
-    @article{kaushalya2024liverusrecon,
-      author    = {Kaushalya Sivayogaraj, Sahan T. Guruge, Udari Liyanage, Jeevani Udupihille, Saroj Jayasinghe, Gerard Fernando, Ranga Rodrigo, M. Rukshani Liyanaarachchi},
-      title     = {LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans},
-      journal   = {MICCAI},
-      year      = {2024},
-    }
+```bibtex
+@misc{sivayogaraj2024liverusreconautomatic3dreconstruction,
+      title={LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans}, 
+      author={Kaushalya Sivayogaraj and Sahan T. Guruge and Udari Liyanage and Jeevani Udupihille and Saroj Jayasinghe and Gerard Fernando and Ranga Rodrigo and M. Rukshani Liyanaarachchi},
+      year={2024},
+      eprint={2406.19336},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2406.19336}, 
+}
+```
 
