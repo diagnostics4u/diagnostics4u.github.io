@@ -10,7 +10,7 @@
 [Gerard Fernando](gerardf@zone24x7.com),  [Ranga Rodrigo](ranga@uom.lk), 
 [Rukshani Liyanaarachchi](rukshanil@uom.lk)
 
-![Interpolate start reference image.](main.PNG)
+![Interpolate start reference image.](./images/main.PNG)
 
 3D reconstruction of the liver for volume measurement and 3D visual shape
 analysis using an accessible medical imaging modality like ultrasound (US)
@@ -24,20 +24,20 @@ obtained from CT scans than the volumes computed by radiologists using the
 Childs’ method.
 
 ## Ultrasound segmentation and 3D reconstruction results
-- ![Overall framework 3D Reconstruction](./videos/3d.gif)
+![Overall framework 3D Reconstruction](./videos/3d.gif)
 
 
 ### 3D Reconstruction
-- ![Overla[ between GT and prediction]](./videos/overlap.gif)
-- ![Absoulte point to point distance](./videos/distance.gif)
+![Overla[ between GT and prediction]](./videos/overlap.gif)
+![Absoulte point to point distance](./videos/distance.gif)
 
 ## Statistical analysis
 
-![Main Results](main_results.PNG)
+![Main Results](./images/main_results.PNG)
 
 ## Volume Comparision
 
-![Volume comparision](volumes.PNG)
+![Volume comparision](./images/volumes.PNG)
 
 ## Citation
 If you find this project or this repository useful, please consider cite:
