@@ -8,62 +8,35 @@
 Guruge](sahang@physiol.cmb.ac.lk), [Udari Liyanage](udari@anat.cmb.ac.lk),
 [Jeevani Udupihille](jeevani.udupihille@med.pdn.ac.lk),  [Saroj
 Jayasinghe](saroj@clinmed.cmb.ac.lk),  [Gerard
-Fernando](gerardf@zone24x7.com),  [Ranga Rodrigo](ranga@uom.lk)1 [Rukshani
+Fernando](gerardf@zone24x7.com),  [Ranga Rodrigo](ranga@uom.lk), [Rukshani
 Liyanaarachchi](rukshanil@uom.lk)
 
 ![Interpolate start reference image.](main.PNG)
-
-##  LiverUSRecon Overview:Binary masks of the three US slices generate the
-shape parameters through the parametric regression MLP. These warp the SSM to
-generate the 3D liver reconstruction.
-
-## US segmentation and 3D reconstruction results
-
-Three input US sagittal plane images, corresponding segmentations, and 3D liver reconstructions using the shape parameters for three subjects.
-
-### Teaser Video
-- [Teaser Video: 3D Reconstruction](3d.mp4)
-
-
-## Abstract
 
 3D reconstruction of the liver for volume measurement and 3D visual shape
 analysis using an accessible medical imaging modality like ultrasound (US)
 imaging is important. We present the first method capable of reconstructing
 liver from few partial Ultrasound scans aquired at midline, midclavicular line
-and anterior-auxillay line.
-
-To the best of our knowledge, this is the first automated deep learning method
+and anterior-auxillay line. To the best of our knowledge, this is the first automated deep learning method
 that calculates the liver volume from three incomplete 2D US scans. Further,
 we introduce a new US liver database with parallel, annotated CT scans
-comprising 134 scans.
-
-Our volumetry results are statistically closer to the ground-truth volumes
+comprising 134 scans.Our volumetry results are statistically closer to the ground-truth volumes
 obtained from CT scans than the volumes computed by radiologists using the
 Childs’ method.
 
-## US segmentation and 3D reconstruction results
+## Ultrasound segmentation and 3D reconstruction results
+- [Overall framework 3D Reconstruction](./videos/3d.gif)
 
-Three input US sagittal plane images, corresponding segmentations, and 3D liver reconstructions using the shape parameters for three subjects.
 
-### Videos
-- [Video: overlap](overlap.mp4)
-- [Video: distance](distance.mp4)
+### 3D Reconstruction
+- [Video: Overla[ between GT and prediction]](./videos/overlap.gif)
+- [Video: Absoulte point to point distance](./videos/distance.gif)
 
-## Main Results
-
-Statistical analysis: RMSE is less in estimated volumes from our method.
-Paired t-test shows that there is no significant difference in volumes between
-CT and our method (p > 0.05). Our method is statistically more accurate. µ:
-mean difference, SEM: standard error mean.
+## Statistical analysis
 
 ![Interpolate start reference image.](main_results.PNG)
 
 ## Volume Comparision
-
-A subset of liver volume estimated by radiologists using Child’s method (US
-Vol), CT segmentation (CT Vol), and the volumes computed using the proposed
-method (Our Vol).
 
 ![Interpolate start reference image.](volumes.PNG)
 
