@@ -2,6 +2,12 @@
 
 # LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans
 
+# LiverUSRecon
+This website holds information for [LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans](https://arxiv.org/pdf/2406.19336)
+
+## 📰 News
+Code and weights will be released soon.
+
 ###  MICCAI 2024
 
 [Kaushalya Sivayogaraj](170597a@uom.lk), 
