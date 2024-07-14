@@ -10,7 +10,7 @@
 [Gerard Fernando](gerardf@zone24x7.com),  [Ranga Rodrigo](ranga@uom.lk), 
 [Rukshani Liyanaarachchi](rukshanil@uom.lk)
 
-![Interpolate start reference image.](./images/main.PNG)
+![Interpolate start reference image.](./videos/usliverrecon_fo_gif.gif)
 
 3D reconstruction of the liver for volume measurement and 3D visual shape
 analysis using an accessible medical imaging modality like ultrasound (US)
