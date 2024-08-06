@@ -43,6 +43,38 @@ Childs’ method.
 
 ![Volume comparision](./images/volumes.PNG)
 
+## Building
+
+## Running
+
+## Licenses
+
+# Code Copyright (C) 2024 Zone24x7, Inc
+# 
+# Code is covered under the GNU Affero General Public License version 3.0
+# 
+# You should have received a copy of the GNU Affero General Public License
+# along with the code.  If not, see <https://www.gnu.org/licenses/>.
+
+
+# ML Weights copyright (c) by Zone24x7, Inc
+# 
+# ML Weights are licensed under a
+# Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+# 
+# You should have received a copy of the license along with this
+# work.  If not, see <https://creativecommons.org/licenses/by-nc-nd/3.0/>.
+
+
+# Patient data copyright (c) by Zone24x7, Inc
+# 
+# Patient data is licensed under a
+# Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+# 
+# You should have received a copy of the license along with this
+# work.  If not, see <https://creativecommons.org/licenses/by-nc-nd/3.0/>.
+
+
 ## Citation
 If you find this project or this repository useful, please consider cite:
 
@@ -57,4 +89,5 @@ If you find this project or this repository useful, please consider cite:
       url={https://arxiv.org/abs/2406.19336}, 
 }
 ```
+
 
