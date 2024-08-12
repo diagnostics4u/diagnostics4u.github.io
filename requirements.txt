@@ -1,0 +1,12 @@
+ml-collections==0.1.1
+numpy==1.21.5
+open3d==0.17.0
+opencv-python==4.6.0.66
+pandas==1.3.5
+Pillow==9.5.0
+pynrrd==1.0.0
+tensorboard==2.11.2
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.64.1
+trimesh==3.20.0

@@ -4,7 +4,7 @@
 This website holds information for [LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans](https://arxiv.org/pdf/2406.19336)
 
 ## 📰 News
-Code, weights and data will be released soon.
+Weights and data will be released soon.
 
 ###  MICCAI 2024
 
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 - Run the inference_liverusrecon script on the downloaded dataset. 
   
 ```bash
-CUDA_VISIBLE_DEVICES=0 python inference_liverusrecon.py --test {dataset path} --save {results path} --info {info path}
+CUDA_VISIBLE_DEVICES=0 python inference_liverusrecon.py --inference {dataset path} --save {results path} --info {info path}
 ```
 
 ## Licenses

@@ -156,11 +156,11 @@ if __name__ == "__main__":
 
     arg_parser = argparse.ArgumentParser(description="Test the model.")
     arg_parser.add_argument(
-        "--test",
+        "--inference",
         "-t",
-        dest="test_directory",
+        dest="inference_directory",
         required=True,
-        help="The testing data directory. "
+        help="The inferencing data directory. "
     )
     arg_parser.add_argument(
         "--save",
@@ -172,9 +172,9 @@ if __name__ == "__main__":
     arg_parser.add_argument(
         "--info",
         "-i",
-        dest="pca_info_directory",
+        dest="ssm_info_directory",
         required=True,
-        help="The pca info directory.",
+        help="The ssm info directory.",
     )
     args = arg_parser.parse_args()
     main_function(args.test_directory, args.save_directory, args.pca_info_directory)
