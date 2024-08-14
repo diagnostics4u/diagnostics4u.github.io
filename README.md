@@ -52,21 +52,20 @@ Childs’ method.
 
 ### 2. Prepare data
 
-Inference datasets will be available soon.
+* Inference datasets will be available soon.
 
 <!-- [BTCV preprocessed data](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd?usp=sharing)  -->
 
 ### 3. Download liver dataset SSM information
 
-The SSM information will be available soon.
-
-Once you download the SSM information, place it in the folder `./SSM/`
+* The SSM information will be available soon.
+* Once you download the SSM information, place it in the folder `./SSM/`
 
 <!-- * [Download SSM information](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd?usp=sharing) -->
 
 ### 4. Environment
 
-Create an environment with python=3.7 and install the dependencies.
+* Create an environment with python=3.7 and install the dependencies.
 
 ```bash
 pip install -r requirements.txt
@@ -74,7 +73,7 @@ pip install -r requirements.txt
 
 ### 5. Train/Test
 
-- Run the inference_liverusrecon script on the downloaded dataset. 
+* Run the inference_liverusrecon script on the downloaded dataset. 
   
 ```bash
 CUDA_VISIBLE_DEVICES=0 python inference_liverusrecon.py --inference {dataset path} --save {results path} --info {info path}
