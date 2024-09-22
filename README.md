@@ -4,7 +4,8 @@ This website holds information for [LiverUSRecon: Automatic 3D Reconstruction an
 
 ## 📰 News
 Codes are available at <https://github.com/diagnostics4u/diagnostics4u.github.io/>.
-If you need the data, please email to [Kaushalya Sivayogaraj](170597a@uom.lk).  Weights will be released soon.
+If you need the data, please email to [Kaushalya Sivayogaraj](170597a@uom.lk).  
+Weights are available at <s3://duvad-research/pretrained_models/model/>.
 
 ###  MICCAI 2024
 
