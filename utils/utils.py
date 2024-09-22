@@ -12,7 +12,7 @@ def PCA_operation(file_base):
     # X_pca_ratio: (k, )
     """
 
-    aver_dir = os.path.join(file_base, "aver.obj")
+    aver_dir = os.path.join(file_base, "liver_aver.obj")
     VT_dir = os.path.join(file_base, "VT.txt")
     var_ratio_dir = os.path.join(file_base, "pca_ratio.txt")
 

@@ -56,14 +56,10 @@ Childs’ method.
 
 * Please email to [Kaushalya Sivayogaraj](170597a@uom.lk) to collect the inference datasets.
 
-<!-- [BTCV preprocessed data](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd?usp=sharing)  -->
-
 ### 3. Download liver dataset SSM information
 
-* The SSM information will be available soon.
+* [Download SSM information](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/)
 * Once you download the SSM information, place it in the folder `./SSM/`
-
-<!-- * [Download SSM information](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd?usp=sharing) -->
 
 ### 4. Environment
 
@@ -78,7 +74,7 @@ pip install -r requirements.txt
 * Run the inference_liverusrecon script on the downloaded dataset. 
   
 ```bash
-CUDA_VISIBLE_DEVICES=0 python inference_liverusrecon.py --inference {dataset path} --save {results path} --info {info path}
+CUDA_VISIBLE_DEVICES=0 python inference_liverusrecon.py --inference {dataset path} --save {results path} --ssm_info {ssm_info path}
 ```
 
 ## Licenses

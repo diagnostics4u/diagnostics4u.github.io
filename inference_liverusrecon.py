@@ -170,13 +170,13 @@ if __name__ == "__main__":
         help="The save directory.",
     )
     arg_parser.add_argument(
-        "--info",
+        "--ssm_info",
         "-i",
         dest="ssm_info_directory",
         required=True,
         help="The ssm info directory.",
     )
     args = arg_parser.parse_args()
-    main_function(args.test_directory, args.save_directory, args.pca_info_directory)
+    main_function(args.inference_directory, args.save_directory, args.ssm_info_directory)
 
 
