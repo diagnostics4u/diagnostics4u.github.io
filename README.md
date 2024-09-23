@@ -3,9 +3,9 @@
 This website holds information for [LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans](https://arxiv.org/pdf/2406.19336)
 
 ## 📰 News
-* Codes are available at [LiverUSRecon]<https://github.com/diagnostics4u/diagnostics4u.github.io/>.
+* Codes are available at [LiverUSRecon](https://github.com/diagnostics4u/diagnostics4u.github.io/).
 * If you need the data, please email to [Kaushalya Sivayogaraj](170597a@uom.lk).  
-* Weights are available at [Segmentation model]<https://duvad-research.s3.amazonaws.com/pretrained_models/models/seg_model_epoch_100.pkl> and [Reconstruction model]<https://duvad-research.s3.amazonaws.com/pretrained_models/models/parametric_model_epoch_100.pkl>.
+* Weights are available at [Segmentation model](https://duvad-research.s3.amazonaws.com/pretrained_models/models/seg_model_epoch_100.pkl) and [Reconstruction model](https://duvad-research.s3.amazonaws.com/pretrained_models/models/parametric_model_epoch_100.pkl).
 
 ###  MICCAI 2024
 
@@ -58,7 +58,7 @@ Childs’ method.
 
 ### 3. Download liver dataset SSM information
 
-* Download SSM information [shape parameters](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/VT.txt), [mean shape](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/liver_aver.obj), [pca ratio](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/pca_ratio.txt) and, [normalization info](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/nor_list.txt)
+* Download SSM information [shape parameters](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/VT.txt), [mean shape](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/liver_aver.obj), [pca ratio](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/pca_ratio.txt) and [normalization info](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/nor_list.txt)
 * Once you download the SSM information, place it in the folder `./SSM/`
 
 ### 4. Environment
