@@ -5,7 +5,7 @@ This website holds information for [LiverUSRecon: Automatic 3D Reconstruction an
 ## 📰 News
 Codes are available at <https://github.com/diagnostics4u/diagnostics4u.github.io/>.
 If you need the data, please email to [Kaushalya Sivayogaraj](170597a@uom.lk).  
-Weights are available at <https://duvad-research.s3.amazonaws.com/pretrained_models/models/>.
+Weights are available at <https://duvad-research.s3.amazonaws.com/pretrained_models/models/seg_model_epoch_100.pkl> <https://duvad-research.s3.amazonaws.com/pretrained_models/models/parametric_model_epoch_100.pkl>.
 
 ###  MICCAI 2024
 
@@ -50,7 +50,7 @@ Childs’ method.
 ### 1. Download Google pre-trained ViT model
 * [Download R50-ViT-B_16 models in this link](https://console.cloud.google.com/storage/vit_models/): R50-ViT-B_16
 * Move the downloaded model to folder `./model/vit_checkpoint/imagenet21k/` and rename it to `R50-ViT-B_16.npz`
-* Download the pretrained segmentation and reconstruction models from [pretrained models](https://duvad-research.s3.amazonaws.com/pretrained_models/models/) and move it to the results folder
+* Download the pretrained segmentation and reconstruction models from [pretrained segmentation models](https://duvad-research.s3.amazonaws.com/pretrained_models/models/seg_model_epoch_100.pkl) [pretrained reconstruction models](https://duvad-research.s3.amazonaws.com/pretrained_models/models/parametric_model_epoch_100.pkl) and move it to folder named "models" under the results folder
 
 ### 2. Prepare data
 
@@ -58,7 +58,7 @@ Childs’ method.
 
 ### 3. Download liver dataset SSM information
 
-* [Download SSM information](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/)
+* Download SSM information [shape parameters](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/VT.txt) and [mean shape](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/liver_aver.obj) [pca ratio](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/pca_ratio.txt) [normalization info](https://duvad-research.s3.amazonaws.com/pretrained_models/liver_ssm/nor_list.txt)
 * Once you download the SSM information, place it in the folder `./SSM/`
 
 ### 4. Environment
