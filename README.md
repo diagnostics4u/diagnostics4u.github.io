@@ -4,16 +4,16 @@ This website holds information for [LiverUSRecon: Automatic 3D Reconstruction an
 
 ## 📰 News
 * Codes are available at [LiverUSRecon](https://github.com/diagnostics4u/diagnostics4u.github.io/).
-* If you need the data, please email to [Kaushalya Sivayogaraj](170597a@uom.lk).  
+* If you need the data, please email to [Kaushalya Sivayogaraj](mailto:170597a@uom.lk).  
 * Weights are available at [Segmentation model](https://duvad-research.s3.amazonaws.com/pretrained_models/models/seg_model_epoch_100.pkl) and [Reconstruction model](https://duvad-research.s3.amazonaws.com/pretrained_models/models/parametric_model_epoch_100.pkl).
 
 ###  MICCAI 2024
 
-[Kaushalya Sivayogaraj](170597a@uom.lk), 
-[Sahan T. Guruge](sahang@physiol.cmb.ac.lk), [Udari Liyanage](udari@anat.cmb.ac.lk),
-[Jeevani Udupihille](jeevani.udupihille@med.pdn.ac.lk),  [Saroj Jayasinghe](saroj@clinmed.cmb.ac.lk),
-[Gerard Fernando](gerardf@zone24x7.com),  [Ranga Rodrigo](ranga@uom.lk), 
-[Rukshani Liyanaarachchi](rukshanil@uom.lk)
+[Kaushalya Sivayogaraj](mailto:170597a@uom.lk), 
+[Sahan T. Guruge](mailto:sahang@physiol.cmb.ac.lk), [Udari Liyanage](mailto:udari@anat.cmb.ac.lk),
+[Jeevani Udupihille](mailto:jeevani.udupihille@med.pdn.ac.lk),  [Saroj Jayasinghe](mailto:saroj@clinmed.cmb.ac.lk),
+[Gerard Fernando](mailto:gerardf@zone24x7.com),  [Ranga Rodrigo](mailto:ranga@uom.lk), 
+[Rukshani Liyanaarachchi](mailto:rukshanil@uom.lk)
 
 ![Interpolate start reference image.](./videos/usliverrecon_fo_gif.gif)
 
