@@ -106,16 +106,32 @@ You should have received a copy of the license along with this work. If not, see
 If you find this project or this repository useful, please consider cite:
 
 ```bibtex
-@misc{sivayogaraj2024liverusreconautomatic3dreconstruction,
-      title={LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans}, 
-      author={Kaushalya Sivayogaraj and Sahan T. Guruge and Udari Liyanage and Jeevani Udupihille and Saroj Jayasinghe and Gerard Fernando and Ranga Rodrigo and M. Rukshani Liyanaarachchi},
-      year={2024},
-      eprint={2406.19336},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2406.19336}, 
+@InProceedings{10.1007/978-3-031-72104-5_42,
+author="Sivayogaraj, Kaushalya
+and Guruge, Sahan I. T.
+and Liyanage, Udari A.
+and Udupihille, Jeevani J.
+and Jayasinghe, Saroj
+and Fernando, Gerard M. X.
+and Rodrigo, Ranga
+and Liyanaarachchi, Rukshani",
+editor="Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.",
+title="LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="436--445",
+isbn="978-3-031-72104-5"
 }
 ```
+
 
 
 
